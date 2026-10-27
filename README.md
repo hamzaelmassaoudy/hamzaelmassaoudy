@@ -1,38 +1,49 @@
-# Hamza El Massaoudy
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Hamza El Massaoudy, medical AI researcher. Building medical AI that holds up beyond the hospital where it was built." src="assets/header-light.svg" width="100%">
+</picture>
 
-**Computer Science Researcher | Medical Imaging AI | Software Engineering**
+<p align="center">
+  <a href="mailto:elmassaoudy.hamza@gmail.com">elmassaoudy.hamza@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/hamza-elmassaoudy/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0001-8118-7983">ORCID</a>
+</p>
 
-Nanjing, China
+I am a medical AI researcher and a master's student in Computer Science at **Nanjing University of Information Science & Technology (NUIST)**.
 
-I develop reproducible machine-learning and software systems, with a current research focus on multimodal medical-image analysis. My work combines multiphase CT, 3D deep learning, radiomics, clinical variables, and rigorous internal and external evaluation.
+A model that scores well on the data it was built on has passed only the first test. My work asks the next questions:
 
-## Research interests
+- Does it still work at another hospital, on another scanner, or on a noisier signal?
+- Is it learning the disease, or a shortcut hidden in the data?
+- When it is unsure, does it know to hand the case to a clinician?
 
-- Medical imaging and computer-aided diagnosis
-- Multimodal learning for multiphase CT
-- 3D deep learning, radiomics, and model fusion
-- External validation, domain shift, and transportability
-- Explainable and reproducible machine learning
+**My focus is trustworthy medical AI:** external validation across sites and scanners, auditing datasets for shortcuts, calibrated confidence, and models that know when to defer to a human.
 
-## Technical skills
+> **Looking for a PhD position in medical AI, starting September 2027.** I am also open to research and ML engineering roles in health AI.
 
-- **Machine learning:** Python, PyTorch, MONAI, scikit-learn, LightGBM, PyRadiomics
-- **Scientific computing:** NumPy, pandas, SciPy, Matplotlib, Jupyter, Google Colab
-- **Medical imaging:** DICOM, NIfTI, 3D CT processing, segmentation masks, Grad-CAM
-- **Software development:** Java, PHP, JavaScript, SQL, MySQL, PostgreSQL
-- **Engineering:** Git, GitHub, Linux, testing, continuous integration
+## Research path
 
-## Featured research
+- **Multimodal medical imaging:** multiphase CT, radiomics and 3D deep learning, combined with clinical data.
+- **Generalization:** testing models beyond the place where they were built, and finding the dataset shortcuts that make internal scores look better than they are.
+- **Trustworthy decisions:** calibration, uncertainty, and selective prediction, so that uncertain cases go to clinicians.
+- **Biosignals:** ECG foundation models for detecting atrial fibrillation.
 
-[Multimodal classification of primary liver tumors](https://github.com/hamzaelmassaoudy/multimodal-liver-tumor-classification-research)  
-An aggregate-only research release covering multiphase CT classification, radiomics, late fusion, internal evaluation, and external transportability stress testing.
+## Work
 
-## Selected software projects
+- **Multimodal classification of primary liver tumors on multiphase CT:** paper under revision · [code](https://github.com/hamzaelmassaoudy/multimodal-liver-tumor-classification)
+- **Trustworthy atrial fibrillation detection with ECG foundation models:** master's thesis and paper, in progress
+- **Explainable HCC survival prediction:** [code](https://github.com/hamzaelmassaoudy/explainable-hcc-survival-prediction)
 
-- [Online Lawyer Management System](https://github.com/hamzaelmassaoudy/Online-Lawyer-Management-System) - PHP and MySQL application for lawyer discovery, appointments, and administration
-- [iFerm](https://github.com/hamzaelmassaoudy/Iferm-project) - Responsive front-end project for renewable-energy services
-- [PHP Doctor Appointment System](https://github.com/hamzaelmassaoudy/PHP-Doctor-Appointment-System) - Web-based clinic appointment scheduling system
+## Tools
 
-## Professional principles
+- **Medical AI:** MONAI · SimpleITK · PyRadiomics · DICOM / NIfTI · WFDB · ECGFounder · ECG-JEPA · Grad‑CAM
+- **Machine learning:** Python · PyTorch · scikit-learn · LightGBM · TensorFlow / Keras · NumPy · pandas · SciPy · OpenCV
+- **Engineering:** Git · GitHub Actions · pytest · Docker · Linux · Streamlit · Django · Flask · Spring Boot · PHP · JavaScript · MySQL · PostgreSQL
 
-I value authentic results, transparent evaluation, readable code, reproducible workflows, and responsible handling of sensitive data.
+## Beyond research
+
+- **Co-founder of gethsk.com (coming soon):** a platform for learning Chinese through a structured, step-by-step learning path. I design the learning path and the courses, and write the code.
+- **Freelance full-stack developer:** web systems for clients in Morocco, Saudi Arabia and the UAE, including [asiascholar.org](https://asiascholar.org).
+- **Languages:** Arabic and Amazigh (native) · English (C1) · French (B1–B2) · Chinese (HSK 4).
